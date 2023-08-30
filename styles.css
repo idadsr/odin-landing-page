@@ -80,6 +80,46 @@ ul {
     margin-left: auto;
 }
 
+.gallery {
+    display: flex;
+    padding: 70px 200px 162px;
+    justify-content: space-evenly;
+    gap: 
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 170px;
+    justify-content: space-evenly;
+}
+
+.image-box {
+    box-sizing: border-box;
+    height: 170px;
+    width: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.image-subtext {
+    text-align: center;
+    font-size: 18px;
+    color:hsl(0, 0%, 49%);
+    margin: 10px 0px;
+}
+
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
