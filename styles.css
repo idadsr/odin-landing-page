@@ -11,7 +11,7 @@ body {
 .header {
     display: flex;
     background: #1F2937;
-    padding: 20px 200px;
+    padding: 20px 200px 0px;
 }
 
 .logo {
@@ -84,7 +84,6 @@ ul {
     display: flex;
     padding: 70px 200px 162px;
     justify-content: space-evenly;
-    gap: 
 }
 
 h2 {
@@ -118,6 +117,72 @@ h2 {
     font-size: 18px;
     color:hsl(0, 0%, 49%);
     margin: 10px 0px;
+}
+
+.quotation {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: lighter;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.action {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+}
+
+.action-bar {
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.action-text {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 footer {
